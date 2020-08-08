@@ -1,0 +1,1 @@
+All the solutions are written in the pdf named 'EE17BTECH11051.pdf'. The code for question number 6 in named as 'Q6.py'.
