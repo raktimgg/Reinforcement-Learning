@@ -1,0 +1,14 @@
+This file contains written solution as asked in parts (a) and (c) of question number 1.
+
+Solution to question number 1 (a)-
+	- For mountain car environment:
+		action space: a real number between -1 and 1.
+		state space: it is a tuple of 2 real numbers. The first one represents the car's position and the second one represents the car's velocity.
+		reward function: -1 is awarded for each time step spent. +100 is awarded when the agent reaches the goal state.
+	- For Lunar Lander Continuous environment:
+		action space: a tuple of 2 real numbers, each between -1 and 1
+		state space: a tuple of 8 real numbers. The first two of them represent the coordinate of the agent. The remaining represent data such as velocity, acceleration, etc.
+		reward function: +100 if agent comes to rest. -100 if agent crashes. +10 for each leg contact. +200 if the environment is solved. -0.3 for firing each of the engines for a time frame.
+
+Solution to question number 1 (c)-
+	On using Gaussian noise process for exploration, the agent takes much more time to converge in these environments. This can be because the noise created in an OU process is correlated over time steps, whereas that in Gaussian is not. Therefore, in the case of Gaussian noise process (with 0 mean), the sum of the exploration terms come to 0 after some time steps, but the same does not happen with the OU noise process, thus making it more suitable for exploration.
