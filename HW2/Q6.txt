@@ -1,0 +1,16 @@
+Summary-
+
+Assumptions on the environment:
+	- The environment is assumed to be square.
+	- The agent alsways starts from a fixed position. This is in agreement with the actual pac-man game.
+
+Note on final performance:
+	- The performance of the agent has been seen during training by keeping a record of number of food pellets consumed in each epoch during training.
+	- The agent has been trained for different environment and after training, I have found that it gives very decent results on a square environment of length 5 units with 1 food pellet in total, when trained for atleast 30000 epochs.
+	- At the start of training the agents are hardly able to get a single food pellet before the game is over. However, towards the end of training, the agent is able to get (in the environment and number of epochs mentioned in previous point) food pellets of more than 40 in case of SARSA and more than 150 in case of Q-learning.
+
+Comparison on performance of Q-learning and SARSA:
+	- Both the methods are tested by playing 100 rounds of game.
+	- The average number of food pellets consumed in case of SARSA is 24.
+	- The average number of food pellets consumed in case of Q-Learning is 180.
+	- Clearly, Q-Learning performed better

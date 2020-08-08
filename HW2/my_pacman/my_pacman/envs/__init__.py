@@ -1,0 +1,1 @@
+from my_pacman.envs.my_pacman_env import MyPacMan

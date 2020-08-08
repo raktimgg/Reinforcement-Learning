@@ -1,0 +1,8 @@
+Answer to Question 7, part c, bit (4)-
+	Among all the three agents, the best performance was shown by the one which was trained against the random opponent. This is because while training, the agent is faced with random moves and there is no fixed pattern unlike the safe agent.
+
+Answer to Question 7, part c, bit (5)-
+	The Q-learning agent can become unbeatable against any agent if trained for proper number of epochs
+
+
+The training and testing has been done as asked in the question.
